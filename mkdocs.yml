@@ -1,0 +1,102 @@
+# Project Information
+site_name: MO Wiki
+site_description: 
+site_author: 
+site_url: https://huanghaox1212.github.io/mot
+strict: true
+
+# Repository
+repo_name: 'huanghaox1212/mot'
+repo_url: 'https://github.com/huanghaox1212/mot'
+edit_uri: 'https://huanghaox1212.github.io/mot/edit-landing/?ref='
+
+# Copyright
+copyright: 'Copyright &copy; 2020 MO Wiki Team'
+google_analytics:
+  - 'UA-124485594-1'
+  - 'auto'
+
+# Contents
+nav:
+  - 简介:
+    - Getting Started: index.md
+    - 文本编辑指南: intro/latex.md
+    - 关于本项目: intro/about.md
+    - 帮助我们编辑页面: intro/htc.md
+    - F.A.Q.: intro/faq.md
+    - 捐赠: intro/thanks.md
+  - 初中部分:
+    - 数与整除: primary/num.md
+  #- 代数:
+  #- 几何:
+  #- 数论:
+  #- 组合:
+
+# Theme
+theme:
+  name: 'material'
+  language: 'zh'
+  palette:
+    primary: 'white'
+    accent: 'red'
+  include_search_page: false
+  search_index_only: true
+  favicon: 'favicon.ico'
+
+  logo:
+    icon: 'school'
+  feature:
+    tabs: true
+  font:
+    text: 'Fira Sans'
+    code: 'Fira Mono'
+
+# Customization
+extra:
+  search:
+    language: 'jp'
+  disqus: 'MO-Wiki'
+  copyright: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a> 和 <a href="https://github.com/zTrix/sata-license">SATA</a>'
+  pagetime: 'on'
+  manifest: 'manifest.webmanifest'
+  githash: ''
+
+extra_javascript:
+  - '_static/js/extra.js?v=16'
+  - 'https://cdnjs.loli.net/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
+
+
+extra_css:
+  - '_static/css/extra.css?v=12'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.progressbar
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: math
+          class: arithmatex
+          format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
