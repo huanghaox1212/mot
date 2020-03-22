@@ -1,31 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://huanghaox1212.github.io/mot/</loc>
-     <lastmod>2020-03-21</lastmod>
+     <lastmod>2020-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://huanghaox1212.github.io/mot/intro/latex/</loc>
-     <lastmod>2020-03-21</lastmod>
+     <lastmod>2020-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://huanghaox1212.github.io/mot/intro/about/</loc>
-     <lastmod>2020-03-21</lastmod>
+     <lastmod>2020-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://huanghaox1212.github.io/mot/intro/htc/</loc>
-     <lastmod>2020-03-21</lastmod>
+     <lastmod>2020-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://huanghaox1212.github.io/mot/intro/faq/</loc>
-     <lastmod>2020-03-21</lastmod>
+     <lastmod>2020-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://huanghaox1212.github.io/mot/intro/thanks/</loc>
-     <lastmod>2020-03-21</lastmod>
+     <lastmod>2020-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://huanghaox1212.github.io/mot/primary/num/</loc>
-     <lastmod>2020-03-21</lastmod>
+     <lastmod>2020-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://huanghaox1212.github.io/mot/A/intro/</loc>
+     <lastmod>2020-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://huanghaox1212.github.io/mot/A/set/</loc>
+     <lastmod>2020-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://huanghaox1212.github.io/mot/A/func/efun/</loc>
+     <lastmod>2020-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://huanghaox1212.github.io/mot/A/func/trifun/</loc>
+     <lastmod>2020-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://huanghaox1212.github.io/mot/A/func/funi/</loc>
+     <lastmod>2020-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://huanghaox1212.github.io/mot/A/func/fune/</loc>
+     <lastmod>2020-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://huanghaox1212.github.io/mot/A/linear/geo/</loc>
+     <lastmod>2020-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://huanghaox1212.github.io/mot/A/linear/vec/</loc>
+     <lastmod>2020-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://huanghaox1212.github.io/mot/A/linear/matrix/poly/</loc>
+     <lastmod>2020-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://huanghaox1212.github.io/mot/A/linear/matrix/matc/</loc>
+     <lastmod>2020-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://huanghaox1212.github.io/mot/A/linear/matrix/gauss/</loc>
+     <lastmod>2020-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://huanghaox1212.github.io/mot/A/linear/matrix/sqr/</loc>
+     <lastmod>2020-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://huanghaox1212.github.io/mot/G/intro/</loc>
+     <lastmod>2020-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://huanghaox1212.github.io/mot/N/intro/</loc>
+     <lastmod>2020-03-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://huanghaox1212.github.io/mot/C/intro/</loc>
+     <lastmod>2020-03-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

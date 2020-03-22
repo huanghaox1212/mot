@@ -27,10 +27,28 @@ nav:
     - 捐赠: intro/thanks.md
   - 初中部分:
     - 数与整除: primary/num.md
-  #- 代数:
-  #- 几何:
-  #- 数论:
-  #- 组合:
+  - 代数:
+    - 代数部分简介: A/intro.md
+    - 集合: A/set.md
+    - 函数:
+        - 指对幂函数: A/func/efun.md
+        - 三角函数: A/func/trifun.md
+        - 函数迭代: A/func/funi.md
+        - 函数方程: A/func/fune.md
+    - 线性代数:
+        - 线性代数的几何实质: A/linear/geo.md
+        - 向量: A/linear/vec.md
+        - 矩阵论:
+            - 多项式: A/linear/matrix/poly.md
+            - 矩阵与变换: A/linear/matrix/matc.md
+            - 高斯消元: A/linear/matrix/gauss.md
+            - 配方法: A/linear/matrix/sqr.md
+  - 几何:
+    - 几何部分简介: G/intro.md
+  - 数论:
+    - 数论部分简介: N/intro.md
+  - 组合:
+    - 组合部分简介: C/intro.md
 
 # Theme
 theme:
