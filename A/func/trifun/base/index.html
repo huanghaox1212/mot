@@ -1122,18 +1122,6 @@
   </li>
 
         
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../../complex/cfunc/" title="复变函数" class="md-nav__link">
-      复变函数
-    </a>
-  </li>
-
-        
       </ul>
     </nav>
   </li>
@@ -1187,15 +1175,27 @@
           
 
 
+  <li class="md-nav__item">
+    <a href="../../../linear/poly/" title="多项式" class="md-nav__link">
+      多项式
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-5-3" type="checkbox" id="nav-3-5-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-5-4" type="checkbox" id="nav-3-5-4">
     
-    <label class="md-nav__link" for="nav-3-5-3">
+    <label class="md-nav__link" for="nav-3-5-4">
       矩阵论
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
-      <label class="md-nav__title" for="nav-3-5-3">
+      <label class="md-nav__title" for="nav-3-5-4">
         矩阵论
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -1207,44 +1207,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../linear/matrix/poly/" title="多项式" class="md-nav__link">
-      多项式
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../../linear/matrix/matc/" title="矩阵与变换" class="md-nav__link">
-      矩阵与变换
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../../linear/matrix/gauss/" title="高斯消元" class="md-nav__link">
-      高斯消元
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../../linear/matrix/sqr/" title="配方法" class="md-nav__link">
-      配方法
+    <a href="../../../linear/matrix/gugu/" title="咕咕咕" class="md-nav__link">
+      咕咕咕
     </a>
   </li>
 
@@ -1568,6 +1532,18 @@
         
       </ul>
     </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../halg/gugu/" title="抽象代数" class="md-nav__link">
+      抽象代数
+    </a>
   </li>
 
         
@@ -2094,7 +2070,17 @@ D.<span><span class="MathJax_Preview">y=\sin(x+\dfrac\pi2)</span><script type="m
 <li><span><span class="MathJax_Preview">\sin(3x)=4\sin(x)\sin(60°-\alpha)\sin(60°+\alpha)</span><script type="math/tex">\sin(3x)=4\sin(x)\sin(60°-\alpha)\sin(60°+\alpha)</script></span></li>
 <li><span><span class="MathJax_Preview">\cos(3x)=4\cos(x)\cos(60°-\alpha)\cos(60°+\alpha)</span><script type="math/tex">\cos(3x)=4\cos(x)\cos(60°-\alpha)\cos(60°+\alpha)</script></span></li>
 <li><span><span class="MathJax_Preview">\tan(3x)=\tan(x)\tan(60°-\alpha)\tan(60°+\alpha)</span><script type="math/tex">\tan(3x)=\tan(x)\tan(60°-\alpha)\tan(60°+\alpha)</script></span></li>
+<li><span><span class="MathJax_Preview">\sin(3x)=3\sin(x)-4\sin^3(x)</span><script type="math/tex">\sin(3x)=3\sin(x)-4\sin^3(x)</script></span></li>
 </ul>
+<details class="note" open="open"><summary>例题</summary><p>求<span><span class="MathJax_Preview">\sin1°\sin2°\sin3°\cdot\cdot\cdot\sin89°</span><script type="math/tex">\sin1°\sin2°\sin3°\cdot\cdot\cdot\sin89°</script></span></p>
+</details>
+<details class="note"><summary>解析</summary><p>可以考虑分组。将其分为：<span><span class="MathJax_Preview">1,59,61;2,58,62;\cdot\cdot\cdot;29,31,89</span><script type="math/tex">1,59,61;2,58,62;\cdot\cdot\cdot;29,31,89</script></span>。<br />
+则原式=<span><span class="MathJax_Preview">(\dfrac14)^{29}\sin3°\sin6°\cdot\cdot\cdot\sin87°\sin30°\sin60°</span><script type="math/tex">(\dfrac14)^{29}\sin3°\sin6°\cdot\cdot\cdot\sin87°\sin30°\sin60°</script></span><br />
+再继续分组即可。注意最后需要计算<span><span class="MathJax_Preview">\sin36°</span><script type="math/tex">\sin36°</script></span>的值。这个值有些复杂，因此只需要记忆有<span><span class="MathJax_Preview">\cos36°=\dfrac{1+\sqrt5}4</span><script type="math/tex">\cos36°=\dfrac{1+\sqrt5}4</script></span>，再考虑确定正弦值的符号，利用“平方关系”得出<span><span class="MathJax_Preview">\sin36°</span><script type="math/tex">\sin36°</script></span>。<br />
+最终答案为<span><span class="MathJax_Preview">\sqrt{\dfrac{180}{2^{179}}}</span><script type="math/tex">\sqrt{\dfrac{180}{2^{179}}}</script></span>。</p>
+</details>
+<p>注意，还可以利用复数章节的一个结论。</p>
+<p><span><span class="MathJax_Preview">\sin\dfrac\pi n\sin\dfrac{2\pi}n\cdot\cdot\cdot\sin\dfrac{(n-1)\pi}n=\dfrac{n}{2^{n-1}}</span><script type="math/tex">\sin\dfrac\pi n\sin\dfrac{2\pi}n\cdot\cdot\cdot\sin\dfrac{(n-1)\pi}n=\dfrac{n}{2^{n-1}}</script></span>。</p>
 <h3 id="_19">和差化积、积化和差公式<a class="headerlink" href="#_19" title="Permanent link">&para;</a></h3>
 <ul>
 <li><span><span class="MathJax_Preview">\sin(x)+\sin(y)=2\sin\dfrac{x+y}2\cos\dfrac{x-y}2</span><script type="math/tex">\sin(x)+\sin(y)=2\sin\dfrac{x+y}2\cos\dfrac{x-y}2</script></span></li>
@@ -2158,6 +2144,7 @@ D.<span><span class="MathJax_Preview">y=\sin(x+\dfrac\pi2)</span><script type="m
 <span><span class="MathJax_Preview">=\dfrac14+\cdot\cdot\cdot+\dfrac14+\dfrac12\cos\pi8+\cdot\cdot\cdot+\dfrac12\cos{15\pi}8+\dfrac14\cos^2\pi8+\cdot\cdot\cdot+\dfrac14\cos^2{15\pi}8\tag*{}</span><script type="math/tex">=\dfrac14+\cdot\cdot\cdot+\dfrac14+\dfrac12\cos\pi8+\cdot\cdot\cdot+\dfrac12\cos{15\pi}8+\dfrac14\cos^2\pi8+\cdot\cdot\cdot+\dfrac14\cos^2{15\pi}8\tag*{}</script></span><br />
 <span><span class="MathJax_Preview">=2+0+\dfrac14(\dfrac{1+\cos\dfrac\pi4}2+\cdot\cdot\cdot+\dfrac{1+\cos\dfrac\pi4}2)=2+0+\dfrac14\times\dfrac12\times8=3\tag*{}</span><script type="math/tex">=2+0+\dfrac14(\dfrac{1+\cos\dfrac\pi4}2+\cdot\cdot\cdot+\dfrac{1+\cos\dfrac\pi4}2)=2+0+\dfrac14\times\dfrac12\times8=3\tag*{}</script></span>  </p>
 </details>
+<p>事实上，可以求等差数列正（余）弦值k次方的和，这需要使用<strong>牛顿公式</strong>进行递推，这是多项式中的内容，故暂时略去。</p>
 <h3 id="_21">万能公式<a class="headerlink" href="#_21" title="Permanent link">&para;</a></h3>
 <ul>
 <li><span><span class="MathJax_Preview">\sin(2x)=\dfrac{2\tan(x)}{1+\tan^2(x)}</span><script type="math/tex">\sin(2x)=\dfrac{2\tan(x)}{1+\tan^2(x)}</script></span></li>

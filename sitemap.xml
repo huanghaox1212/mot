@@ -120,10 +120,6 @@
      <lastmod>2020-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://huanghaox1212.github.io/mot/A/complex/cfunc/</loc>
-     <lastmod>2020-03-26</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
      <loc>https://huanghaox1212.github.io/mot/A/linear/geo/</loc>
      <lastmod>2020-03-26</lastmod>
      <changefreq>daily</changefreq>
@@ -132,19 +128,11 @@
      <lastmod>2020-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://huanghaox1212.github.io/mot/A/linear/matrix/poly/</loc>
+     <loc>https://huanghaox1212.github.io/mot/A/linear/poly/</loc>
      <lastmod>2020-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://huanghaox1212.github.io/mot/A/linear/matrix/matc/</loc>
-     <lastmod>2020-03-26</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://huanghaox1212.github.io/mot/A/linear/matrix/gauss/</loc>
-     <lastmod>2020-03-26</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://huanghaox1212.github.io/mot/A/linear/matrix/sqr/</loc>
+     <loc>https://huanghaox1212.github.io/mot/A/linear/matrix/gugu/</loc>
      <lastmod>2020-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
@@ -225,6 +213,10 @@
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://huanghaox1212.github.io/mot/A/ineq/bound/</loc>
+     <lastmod>2020-03-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://huanghaox1212.github.io/mot/A/halg/gugu/</loc>
      <lastmod>2020-03-26</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
